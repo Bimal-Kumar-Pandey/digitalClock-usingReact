@@ -1,0 +1,45 @@
+.body {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 8px;
+}
+
+.Time {
+  display: flex;
+}
+
+.child {
+  color: greenyellow;
+
+  font-size: 100px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 {
+  color: greenyellow;
+  margin-top: 35%;
+}
+
+.displayDay {
+  color: greenyellow;
+}
+
+.displayDate {
+  color: greenyellow;
+  display: flex;
+}
+h2{
+  margin: 5px;
+}
